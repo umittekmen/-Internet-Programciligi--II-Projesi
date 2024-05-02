@@ -37,7 +37,7 @@ function HomePage() {
                                 alignItems="center"
                                 justifyContent="center"
                             >
-                                Audi bir Alman Markasıdır  {/* İkarta içeriğini buraya ekleyin */}
+                                Audi bir Alman Markasıdır
                             </Box>
                         )}
                     </Card>
@@ -66,7 +66,7 @@ function HomePage() {
                                 alignItems="center"
                                 justifyContent="center"
                             >
-                                Alfa Romeo  {/* İkarta içeriğini buraya ekleyin */}
+                                Alfa Romeo
                             </Box>
                         )}
                     </Card>
