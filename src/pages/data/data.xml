@@ -1,0 +1,811 @@
+<brands xmlns="http://www.auto-data.net/">
+
+	<brand>
+		<update>2022-04-14 16:44:04</update>
+		<name>Infiniti</name>
+		<id>152</id>
+		<models>
+			<model>
+				<update>2024-01-29 12:13:51</update>
+				<name>JX</name>
+				<id>3388</id>
+				<generations>
+					<generation>
+						<prototype>0</prototype>
+						<update>2024-01-29 12:15:05</update>
+						<name>JX</name>
+						<modelYear>2013</modelYear>
+						<id>9858</id>
+						<images>
+							<image>
+								<id>138207</id>
+								<update>2024-01-29 12:45:26</update>
+								<small>https://api.auto-data.net/images/f36/Infiniti-JX_thumb.jpg</small>
+								<big>https://api.auto-data.net/images/f36/Infiniti-JX.jpg</big>
+								<attribution>CEFICEFI, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons</attribution>
+							</image>
+							<image>
+								<id>138208</id>
+								<update>2024-01-29 12:45:26</update>
+								<small>https://api.auto-data.net/images/f123/Infiniti-JX_thumb_2.jpg</small>
+								<big>https://api.auto-data.net/images/f123/Infiniti-JX_4.jpg</big>
+								<attribution>CEFICEFI, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons</attribution>
+							</image>
+						</images>
+						<modifications>
+							<modification>
+								<id>51065</id>
+								<update>2024-01-29 16:10:59</update>
+								<brand>Infiniti</brand>
+								<model>JX</model>
+								<generation>JX</generation>
+								<doors>5</doors>
+								<doorsMin>5</doorsMin>
+								<power>265/6400</power>
+								<powerHp>265</powerHp>
+								<powerRpm>6400</powerRpm>
+								<powerRpmLow>6400</powerRpmLow>
+								<tankVolume>74</tankVolume>
+								<coupe>Crossover</coupe>
+								<places>7</places>
+								<placesMin>7</placesMin>
+								<length>4989</length>
+								<width>1960</width>
+								<height>1722</height>
+								<heightMin>1722</heightMin>
+								<rideHeight>165</rideHeight>
+								<rideHeightMin>165</rideHeightMin>
+								<approachAngle>14</approachAngle>
+								<approachAngleMin>14</approachAngleMin>
+								<departureAngle>20.6</departureAngle>
+								<departureAngleMin>20.6</departureAngleMin>
+								<luggageMin>447</luggageMin>
+								<luggageMinMin>447</luggageMinMin>
+								<engineCode>VQ35DE</engineCode>
+								<engineposition>Ön, enine</engineposition>
+								<engineDisplacement>3498</engineDisplacement>
+								<maxEngineSpeed>6600</maxEngineSpeed>
+								<torque>336/4400</torque>
+								<torqueNm>336</torqueNm>
+								<torqueRpm>4400</torqueRpm>
+								<torqueRpmLow>4400</torqueRpmLow>
+								<fuelSystem>Çok noktalı enjeksiyon</fuelSystem>
+								<turbine>Atmosferik motor</turbine>
+								<valvetrain>DOHC,CVTCS</valvetrain>
+								<fuel>Benzin</fuel>
+								<drive>Tüm tekerlekten çekiş (4x4)</drive>
+								<gearboxATType>CVT</gearboxATType>
+								<frontSuspension>Helezon yaylı ve viraj denge çubuğuna sahip bağımsız, McPherson tipi</frontSuspension>
+								<rearSuspension>Stabilizatörlü bağımsız çok bağlantılı yaylı süspansiyon</rearSuspension>
+								<frontBrakes>Hava soğutmalı diskler</frontBrakes>
+								<frontBrakesSize>320</frontBrakesSize>
+								<frontBrakesThickness>28</frontBrakesThickness>
+								<rearBrakes>Hava soğutmalı diskler</rearBrakes>
+								<rearBrakesSize>308</rearBrakesSize>
+								<rearBrakesThickness>16</rearBrakesThickness>
+								<abs>1</abs>
+								<standardFCu>EPA</standardFCu>
+								<fuelConsumptionUrban>13.1</fuelConsumptionUrban>
+								<fuelConsumptionUrbanMin>13.1</fuelConsumptionUrbanMin>
+								<standardFCe>EPA</standardFCe>
+								<fuelConsumptionExtraurban>10.2</fuelConsumptionExtraurban>
+								<fuelConsumptionExtraurbanMin>10.2</fuelConsumptionExtraurbanMin>
+								<standardFCc>EPA</standardFCc>
+								<fuelConsumptionCombined>11.8</fuelConsumptionCombined>
+								<fuelConsumptionCombinedMin>11.8</fuelConsumptionCombinedMin>
+								<curbWeight>2005</curbWeight>
+								<curbWeightMin>2005</curbWeightMin>
+								<maxWeight>2693</maxWeight>
+								<maxWeightMin>2693</maxWeightMin>
+								<tireSize>
+									<all>235/65 R18; 235/55 R20</all>
+									<tire>
+										<size>235/65 R18</size>
+										<W>235</W>
+										<H>65</H>
+										<D>18</D>
+									</tire>
+									<tire>
+										<size>235/55 R20</size>
+										<W>235</W>
+										<H>55</H>
+										<D>20</D>
+									</tire>
+								</tireSize>
+								<rimsSize>
+									<all>7.5J x 18; 7.5J x 20</all>
+									<rim>7.5J x 18</rim>
+									<rim>7.5J x 20</rim>
+								</rimsSize>
+							</modification>
+							<modification>
+								<id>51064</id>
+								<update>2024-01-29 16:10:59</update>
+								<brand>Infiniti</brand>
+								<model>JX</model>
+								<generation>JX</generation>
+								<doors>5</doors>
+								<doorsMin>5</doorsMin>
+								<power>265/6400</power>
+								<powerHp>265</powerHp>
+								<powerRpm>6400</powerRpm>
+								<powerRpmLow>6400</powerRpmLow>
+								<tankVolume>74</tankVolume>
+								<coupe>Crossover</coupe>
+								<places>7</places>
+								<placesMin>7</placesMin>
+								<length>4989</length>
+								<width>1960</width>
+								<height>1722</height>
+								<heightMin>1722</heightMin>
+								<rideHeight>165</rideHeight>
+								<rideHeightMin>165</rideHeightMin>
+								<approachAngle>14</approachAngle>
+								<approachAngleMin>14</approachAngleMin>
+								<departureAngle>20.6</departureAngle>
+								<departureAngleMin>20.6</departureAngleMin>
+								<luggageMin>447</luggageMin>
+								<luggageMinMin>447</luggageMinMin>
+								<engineCode>VQ35DE</engineCode>
+								<engineposition>Ön, enine</engineposition>
+								<engineDisplacement>3498</engineDisplacement>
+								<maxEngineSpeed>6600</maxEngineSpeed>
+								<torque>336/4400</torque>
+								<torqueNm>336</torqueNm>
+								<torqueRpm>4400</torqueRpm>
+								<torqueRpmLow>4400</torqueRpmLow>
+								<fuelSystem>Çok noktalı enjeksiyon</fuelSystem>
+								<turbine>Atmosferik motor</turbine>
+								<valvetrain>DOHC,CVTCS</valvetrain>
+								<fuel>Benzin</fuel>
+								<drive>Önden çekiş</drive>
+								<gearboxATType>CVT</gearboxATType>
+								<frontSuspension>Helezon yaylı ve viraj denge çubuğuna sahip bağımsız, McPherson tipi</frontSuspension>
+								<rearSuspension>Stabilizatörlü bağımsız çok bağlantılı yaylı süspansiyon</rearSuspension>
+								<frontBrakes>Hava soğutmalı diskler</frontBrakes>
+								<frontBrakesSize>320</frontBrakesSize>
+								<frontBrakesThickness>28</frontBrakesThickness>
+								<rearBrakes>Hava soğutmalı diskler</rearBrakes>
+								<rearBrakesSize>308</rearBrakesSize>
+								<rearBrakesThickness>16</rearBrakesThickness>
+								<abs>1</abs>
+								<standardFCu>EPA</standardFCu>
+								<fuelConsumptionUrban>13.1</fuelConsumptionUrban>
+								<fuelConsumptionUrbanMin>13.1</fuelConsumptionUrbanMin>
+								<standardFCe>EPA</standardFCe>
+								<fuelConsumptionExtraurban>9.8</fuelConsumptionExtraurban>
+								<fuelConsumptionExtraurbanMin>9.8</fuelConsumptionExtraurbanMin>
+								<standardFCc>EPA</standardFCc>
+								<fuelConsumptionCombined>11.2</fuelConsumptionCombined>
+								<fuelConsumptionCombinedMin>11.2</fuelConsumptionCombinedMin>
+								<curbWeight>1941</curbWeight>
+								<curbWeightMin>1941</curbWeightMin>
+								<maxWeight>2602</maxWeight>
+								<maxWeightMin>2602</maxWeightMin>
+								<tireSize>
+									<all>235/65 R18; 235/55 R20</all>
+									<tire>
+										<size>235/65 R18</size>
+										<W>235</W>
+										<H>65</H>
+										<D>18</D>
+									</tire>
+									<tire>
+										<size>235/55 R20</size>
+										<W>235</W>
+										<H>55</H>
+										<D>20</D>
+									</tire>
+								</tireSize>
+								<rimsSize>
+									<all>7.5J x 18; 7.5J x 20</all>
+									<rim>7.5J x 18</rim>
+									<rim>7.5J x 20</rim>
+								</rimsSize>
+							</modification>
+						</modifications>
+					</generation>
+				</generations>
+			</model>
+			<model>
+				<update>2023-05-11 12:07:39</update>
+				<name>G</name>
+				<id>1528</id>
+				<generations>
+					<generation>
+						<prototype>0</prototype>
+						<update>2023-08-28 10:49:23</update>
+						<name>G37 Sedan (V36, facelift 2009)</name>
+						<modelYear>2010</modelYear>
+						<id>9613</id>
+						<images>
+							<image>
+								<id>132656</id>
+								<update>2023-08-28 11:06:35</update>
+								<small>https://api.auto-data.net/images/f73/Infiniti-G37-Sedan-V36-facelift-2009_thumb.jpg</small>
+								<big>https://api.auto-data.net/images/f73/Infiniti-G37-Sedan-V36-facelift-2009.jpg</big>
+								<attribution>IFCAR, Public domain, via Wikimedia Commons</attribution>
+							</image>
+							<image>
+								<id>132648</id>
+								<update>2023-08-28 11:06:29</update>
+								<small>https://api.auto-data.net/images/f91/Infiniti-G37-Sedan-V36-facelift-2009_thumb.jpg</small>
+								<big>https://api.auto-data.net/images/f91/Infiniti-G37-Sedan-V36-facelift-2009.jpg</big>
+								<attribution>M 93, Attribution, via Wikimedia Commons</attribution>
+							</image>
+						</images>
+						<modifications>
+							<modification>
+								<id>49207</id>
+								<update>2023-08-28 11:59:51</update>
+								<brand>Infiniti</brand>
+								<model>G</model>
+								<generation>G37 Sedan (V36, facelift 2009)</generation>
+								<doors>4</doors>
+								<doorsMin>4</doorsMin>
+								<power>328/7000</power>
+								<powerHp>328</powerHp>
+								<powerRpm>7000</powerRpm>
+								<powerRpmLow>7000</powerRpmLow>
+								<tankVolume>76</tankVolume>
+								<coupe>Sedan</coupe>
+								<places>5</places>
+								<placesMin>5</placesMin>
+								<length>4779</length>
+								<width>1773</width>
+								<height>1453</height>
+								<heightMin>1453</heightMin>
+								<rideHeight>132</rideHeight>
+								<rideHeightMin>132</rideHeightMin>
+								<luggageMin>382</luggageMin>
+								<luggageMinMin>382</luggageMinMin>
+								<engineCode>VQ37VHR</engineCode>
+								<engineposition>Ön, boyuna</engineposition>
+								<engineDisplacement>3696</engineDisplacement>
+								<maxEngineSpeed>7500</maxEngineSpeed>
+								<torque>365/5200</torque>
+								<torqueNm>365</torqueNm>
+								<torqueRpm>5200</torqueRpm>
+								<torqueRpmLow>5200</torqueRpmLow>
+								<fuelSystem>Çok noktalı enjeksiyon</fuelSystem>
+								<turbine>Atmosferik motor</turbine>
+								<valvetrain>DOHC,CVTCS,VVEL</valvetrain>
+								<fuel>Benzin</fuel>
+								<drive>Arkadan İtiş</drive>
+								<gearboxMT>6</gearboxMT>
+								<frontSuspension>Helezon yay, Çift salıncaklı, Enine sabitleyici</frontSuspension>
+								<rearSuspension>Stabilizatörlü bağımsız çok bağlantılı yaylı süspansiyon</rearSuspension>
+								<frontBrakes>Hava soğutmalı diskler</frontBrakes>
+								<frontBrakesSize>355</frontBrakesSize>
+								<frontBrakesThickness>32</frontBrakesThickness>
+								<rearBrakes>Hava soğutmalı diskler</rearBrakes>
+								<rearBrakesSize>350</rearBrakesSize>
+								<rearBrakesThickness>20</rearBrakesThickness>
+								<abs>1</abs>
+								<turningCircle>10.8</turningCircle>
+								<standardFCu>EPA</standardFCu>
+								<fuelConsumptionUrban>13.8</fuelConsumptionUrban>
+								<fuelConsumptionUrbanMin>13.8</fuelConsumptionUrbanMin>
+								<standardFCe>EPA</standardFCe>
+								<fuelConsumptionExtraurban>9.4</fuelConsumptionExtraurban>
+								<fuelConsumptionExtraurbanMin>9.4</fuelConsumptionExtraurbanMin>
+								<emissionStandard>LEV2</emissionStandard>
+								<curbWeight>1651-1682</curbWeight>
+								<curbWeightMin>1651</curbWeightMin>
+								<curbWeightMax>1682</curbWeightMax>
+								<maxWeight>2142</maxWeight>
+								<maxWeightMin>2142</maxWeightMin>
+								<tireSize>
+									<all>245/45 R18;225/50 R18</all>
+									<tire>
+										<size>245/45 R18</size>
+										<W>245</W>
+										<H>45</H>
+										<D>18</D>
+									</tire>
+									<tire>
+										<size>225/50 R18</size>
+										<W>225</W>
+										<H>50</H>
+										<D>18</D>
+									</tire>
+								</tireSize>
+								<rimsSize>
+									<all>8.5J x 18;7.5J x 18</all>
+									<rim>8.5J x 18</rim>
+									<rim>7.5J x 18</rim>
+								</rimsSize>
+							</modification>
+							<modification>
+								<id>49206</id>
+								<update>2023-08-28 11:59:51</update>
+								<brand>Infiniti</brand>
+								<model>G</model>
+								<generation>G37 Sedan (V36, facelift 2009)</generation>
+								<doors>4</doors>
+								<doorsMin>4</doorsMin>
+								<power>328/7000</power>
+								<powerHp>328</powerHp>
+								<powerRpm>7000</powerRpm>
+								<powerRpmLow>7000</powerRpmLow>
+								<tankVolume>76</tankVolume>
+								<coupe>Sedan</coupe>
+								<places>5</places>
+								<placesMin>5</placesMin>
+								<length>4779</length>
+								<width>1773</width>
+								<height>1468</height>
+								<heightMin>1468</heightMin>
+								<rideHeight>124-130</rideHeight>
+								<rideHeightMin>124</rideHeightMin>
+								<rideHeightMax>130</rideHeightMax>
+								<luggageMin>382</luggageMin>
+								<luggageMinMin>382</luggageMinMin>
+								<engineCode>VQ37VHR</engineCode>
+								<engineposition>Ön, boyuna</engineposition>
+								<engineDisplacement>3696</engineDisplacement>
+								<maxEngineSpeed>7500</maxEngineSpeed>
+								<torque>365/5200</torque>
+								<torqueNm>365</torqueNm>
+								<torqueRpm>5200</torqueRpm>
+								<torqueRpmLow>5200</torqueRpmLow>
+								<fuelSystem>Çok noktalı enjeksiyon</fuelSystem>
+								<turbine>Atmosferik motor</turbine>
+								<valvetrain>DOHC,CVTCS,VVEL</valvetrain>
+								<fuel>Benzin</fuel>
+								<drive>Tüm tekerlekten çekiş (4x4)</drive>
+								<gearboxAT>7</gearboxAT>
+								<frontSuspension>Helezon yay, Çift salıncaklı, Enine sabitleyici</frontSuspension>
+								<rearSuspension>Stabilizatörlü bağımsız çok bağlantılı yaylı süspansiyon</rearSuspension>
+								<frontBrakes>Hava soğutmalı diskler</frontBrakes>
+								<frontBrakesSize>320</frontBrakesSize>
+								<frontBrakesThickness>28</frontBrakesThickness>
+								<rearBrakes>Hava soğutmalı diskler</rearBrakes>
+								<rearBrakesSize>308</rearBrakesSize>
+								<rearBrakesThickness>16</rearBrakesThickness>
+								<abs>1</abs>
+								<turningCircle>11</turningCircle>
+								<standardFCu>EPA</standardFCu>
+								<fuelConsumptionUrban>13.1</fuelConsumptionUrban>
+								<fuelConsumptionUrbanMin>13.1</fuelConsumptionUrbanMin>
+								<standardFCe>EPA</standardFCe>
+								<fuelConsumptionExtraurban>9.4</fuelConsumptionExtraurban>
+								<fuelConsumptionExtraurbanMin>9.4</fuelConsumptionExtraurbanMin>
+								<emissionStandard>LEV2</emissionStandard>
+								<curbWeight>1727-1734</curbWeight>
+								<curbWeightMin>1727</curbWeightMin>
+								<curbWeightMax>1734</curbWeightMax>
+								<maxWeight>2198</maxWeight>
+								<maxWeightMin>2198</maxWeightMin>
+								<tireSize>
+									<all>225/55 R17; 225/50 R18</all>
+									<tire>
+										<size>225/55 R17</size>
+										<W>225</W>
+										<H>55</H>
+										<D>17</D>
+									</tire>
+									<tire>
+										<size>225/50 R18</size>
+										<W>225</W>
+										<H>50</H>
+										<D>18</D>
+									</tire>
+								</tireSize>
+								<rimsSize>
+									<all>7.5J x 17; 7.5J x 18</all>
+									<rim>7.5J x 17</rim>
+									<rim>7.5J x 18</rim>
+								</rimsSize>
+							</modification>
+						</modifications>
+					</generation>
+					<generation>
+						<prototype>0</prototype>
+						<update>2023-08-28 08:30:15</update>
+						<name>G37 Sedan (V36)</name>
+						<modelYear>2009</modelYear>
+						<id>9612</id>
+						<images>
+							<image>
+								<id>132604</id>
+								<update>2023-08-28 08:55:48</update>
+								<small>https://api.auto-data.net/images/f36/Infiniti-G37-Sedan-V36_thumb.jpg</small>
+								<big>https://api.auto-data.net/images/f36/Infiniti-G37-Sedan-V36.jpg</big>
+								<attribution>nakhon100, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons</attribution>
+							</image>
+							<image>
+								<id>132605</id>
+								<update>2023-08-28 08:54:38</update>
+								<small>https://api.auto-data.net/images/f52/Infiniti-G37-Sedan-V36_thumb.jpg</small>
+								<big>https://api.auto-data.net/images/f52/Infiniti-G37-Sedan-V36.jpg</big>
+								<attribution>nakhon100, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons</attribution>
+							</image>
+						</images>
+						<modifications>
+							<modification>
+								<id>49204</id>
+								<update>2023-08-28 12:01:09</update>
+								<brand>Infiniti</brand>
+								<model>G</model>
+								<generation>G37 Sedan (V36)</generation>
+								<doors>4</doors>
+								<doorsMin>4</doorsMin>
+								<power>328/7000</power>
+								<powerHp>328</powerHp>
+								<powerRpm>7000</powerRpm>
+								<powerRpmLow>7000</powerRpmLow>
+								<tankVolume>76</tankVolume>
+								<coupe>Sedan</coupe>
+								<places>5</places>
+								<placesMin>5</placesMin>
+								<length>4755</length>
+								<width>1773</width>
+								<height>1452</height>
+								<heightMin>1452</heightMin>
+								<rideHeight>130</rideHeight>
+								<rideHeightMin>130</rideHeightMin>
+								<luggageMin>382</luggageMin>
+								<luggageMinMin>382</luggageMinMin>
+								<engineCode>VQ37VHR</engineCode>
+								<engineposition>Ön, boyuna</engineposition>
+								<engineDisplacement>3696</engineDisplacement>
+								<maxEngineSpeed>7600</maxEngineSpeed>
+								<torque>365/5200</torque>
+								<torqueNm>365</torqueNm>
+								<torqueRpm>5200</torqueRpm>
+								<torqueRpmLow>5200</torqueRpmLow>
+								<fuelSystem>Çok noktalı enjeksiyon</fuelSystem>
+								<turbine>Atmosferik motor</turbine>
+								<valvetrain>DOHC,CVTCS,VVEL</valvetrain>
+								<fuel>Benzin</fuel>
+								<drive>Arkadan İtiş</drive>
+								<gearboxMT>6</gearboxMT>
+								<frontSuspension>Helezon yay, Çift salıncaklı, Enine sabitleyici</frontSuspension>
+								<rearSuspension>Stabilizatörlü bağımsız çok bağlantılı yaylı süspansiyon</rearSuspension>
+								<frontBrakes>Hava soğutmalı diskler</frontBrakes>
+								<frontBrakesSize>355</frontBrakesSize>
+								<frontBrakesThickness>32</frontBrakesThickness>
+								<rearBrakes>Hava soğutmalı diskler</rearBrakes>
+								<rearBrakesSize>350</rearBrakesSize>
+								<rearBrakesThickness>20</rearBrakesThickness>
+								<abs>1</abs>
+								<turningCircle>10.8</turningCircle>
+								<standardFCu>EPA</standardFCu>
+								<fuelConsumptionUrban>13.8</fuelConsumptionUrban>
+								<fuelConsumptionUrbanMin>13.8</fuelConsumptionUrbanMin>
+								<standardFCe>EPA</standardFCe>
+								<fuelConsumptionExtraurban>9.4</fuelConsumptionExtraurban>
+								<fuelConsumptionExtraurbanMin>9.4</fuelConsumptionExtraurbanMin>
+								<emissionStandard>LEV2</emissionStandard>
+								<curbWeight>1640</curbWeight>
+								<curbWeightMin>1640</curbWeightMin>
+								<maxWeight>2142</maxWeight>
+								<maxWeightMin>2142</maxWeightMin>
+								<tireSize>
+									<all>245/45 R18;225/50 R18</all>
+									<tire>
+										<size>245/45 R18</size>
+										<W>245</W>
+										<H>45</H>
+										<D>18</D>
+									</tire>
+									<tire>
+										<size>225/50 R18</size>
+										<W>225</W>
+										<H>50</H>
+										<D>18</D>
+									</tire>
+								</tireSize>
+								<rimsSize>
+									<all>8.5J x 18;7.5J x 18</all>
+									<rim>8.5J x 18</rim>
+									<rim>7.5J x 18</rim>
+								</rimsSize>
+							</modification>
+							<modification>
+								<id>49203</id>
+								<update>2023-08-28 11:59:51</update>
+								<brand>Infiniti</brand>
+								<model>G</model>
+								<generation>G37 Sedan (V36)</generation>
+								<doors>4</doors>
+								<doorsMin>4</doorsMin>
+								<power>328/7000</power>
+								<powerHp>328</powerHp>
+								<powerRpm>7000</powerRpm>
+								<powerRpmLow>7000</powerRpmLow>
+								<tankVolume>76</tankVolume>
+								<coupe>Sedan</coupe>
+								<places>5</places>
+								<placesMin>5</placesMin>
+								<length>4755</length>
+								<width>1773</width>
+								<height>1469</height>
+								<heightMin>1469</heightMin>
+								<rideHeight>124-130</rideHeight>
+								<rideHeightMin>124</rideHeightMin>
+								<rideHeightMax>130</rideHeightMax>
+								<luggageMin>382</luggageMin>
+								<luggageMinMin>382</luggageMinMin>
+								<engineCode>VQ37VHR</engineCode>
+								<engineposition>Ön, boyuna</engineposition>
+								<engineDisplacement>3696</engineDisplacement>
+								<maxEngineSpeed>7600</maxEngineSpeed>
+								<torque>365/5200</torque>
+								<torqueNm>365</torqueNm>
+								<torqueRpm>5200</torqueRpm>
+								<torqueRpmLow>5200</torqueRpmLow>
+								<fuelSystem>Çok noktalı enjeksiyon</fuelSystem>
+								<turbine>Atmosferik motor</turbine>
+								<valvetrain>DOHC,CVTCS,VVEL</valvetrain>
+								<fuel>Benzin</fuel>
+								<drive>Tüm tekerlekten çekiş (4x4)</drive>
+								<gearboxAT>7</gearboxAT>
+								<frontSuspension>Helezon yay, Çift salıncaklı, Enine sabitleyici</frontSuspension>
+								<rearSuspension>Stabilizatörlü bağımsız çok bağlantılı yaylı süspansiyon</rearSuspension>
+								<frontBrakes>Hava soğutmalı diskler</frontBrakes>
+								<frontBrakesSize>320</frontBrakesSize>
+								<frontBrakesThickness>28</frontBrakesThickness>
+								<rearBrakes>Hava soğutmalı diskler</rearBrakes>
+								<rearBrakesSize>308</rearBrakesSize>
+								<rearBrakesThickness>16</rearBrakesThickness>
+								<abs>1</abs>
+								<turningCircle>11</turningCircle>
+								<standardFCu>EPA</standardFCu>
+								<fuelConsumptionUrban>13.1</fuelConsumptionUrban>
+								<fuelConsumptionUrbanMin>13.1</fuelConsumptionUrbanMin>
+								<standardFCe>EPA</standardFCe>
+								<fuelConsumptionExtraurban>9.4</fuelConsumptionExtraurban>
+								<fuelConsumptionExtraurbanMin>9.4</fuelConsumptionExtraurbanMin>
+								<emissionStandard>LEV2</emissionStandard>
+								<curbWeight>1720</curbWeight>
+								<curbWeightMin>1720</curbWeightMin>
+								<maxWeight>2198</maxWeight>
+								<maxWeightMin>2198</maxWeightMin>
+								<tireSize>
+									<all>225/55 R17; 225/50 R18</all>
+									<tire>
+										<size>225/55 R17</size>
+										<W>225</W>
+										<H>55</H>
+										<D>17</D>
+									</tire>
+									<tire>
+										<size>225/50 R18</size>
+										<W>225</W>
+										<H>50</H>
+										<D>18</D>
+									</tire>
+								</tireSize>
+								<rimsSize>
+									<all>7.5J x 17; 7.5J x 18</all>
+									<rim>7.5J x 17</rim>
+									<rim>7.5J x 18</rim>
+								</rimsSize>
+							</modification>
+						</modifications>
+					</generation>
+				</generations>
+			</model>
+		</models>
+	</brand>
+	<brand>
+		<update>2021-02-02 16:34:43</update>
+		<name>MG</name>
+		<id>153</id>
+		<models>
+			<model>
+				<update>2024-03-19 10:16:26</update>
+				<name>MG7</name>
+				<id>3405</id>
+				<generations>
+					<generation>
+						<prototype>0</prototype>
+						<update>2024-03-19 10:18:12</update>
+						<name>MG7 II</name>
+						<modelYear>2023</modelYear>
+						<id>9929</id>
+						<images>
+							<image>
+								<id>140862</id>
+								<update>2024-03-19 10:22:23</update>
+								<small>https://api.auto-data.net/images/f55/MG-MG7-II_thumb.jpg</small>
+								<big>https://api.auto-data.net/images/f55/MG-MG7-II.jpg</big>
+								<attribution>&amp;copy; www.Auto-Data.net</attribution>
+							</image>
+							<image>
+								<id>140863</id>
+								<update>2024-03-19 10:22:18</update>
+								<small>https://api.auto-data.net/images/f69/MG-MG7-II_thumb.jpg</small>
+								<big>https://api.auto-data.net/images/f69/MG-MG7-II.jpg</big>
+								<attribution>&amp;copy; www.Auto-Data.net</attribution>
+							</image>
+						</images>
+						<modifications>
+							<modification>
+								<id>51378</id>
+								<update>2024-03-20 14:27:18</update>
+								<brand>MG</brand>
+								<model>MG7</model>
+								<generation>MG7 II</generation>
+								<doors>5</doors>
+								<doorsMin>5</doorsMin>
+								<power>261/5500-6000</power>
+								<powerHp>261</powerHp>
+								<powerRpm>5500-6000</powerRpm>
+								<powerRpmLow>5500</powerRpmLow>
+								<powerRpmHigh>6000</powerRpmHigh>
+								<maxspeed>230</maxspeed>
+								<acceleration>6.5</acceleration>
+								<tankVolume>65</tankVolume>
+								<coupe>Fastback</coupe>
+								<places>5</places>
+								<placesMin>5</placesMin>
+								<length>4884</length>
+								<width>1889</width>
+								<height>1447</height>
+								<heightMin>1447</heightMin>
+								<approachAngle>13</approachAngle>
+								<approachAngleMin>13</approachAngleMin>
+								<departureAngle>17</departureAngle>
+								<departureAngleMin>17</departureAngleMin>
+								<luggageMin>375</luggageMin>
+								<luggageMinMin>375</luggageMinMin>
+								<engineCode>BlueCore/20A4E</engineCode>
+								<engineposition>Ön, enine</engineposition>
+								<engineDisplacement>1986</engineDisplacement>
+								<torque>405/1750-4000</torque>
+								<torqueNm>405</torqueNm>
+								<torqueRpm>1750-4000</torqueRpm>
+								<torqueRpmLow>1750</torqueRpmLow>
+								<torqueRpmHigh>4000</torqueRpmHigh>
+								<fuelSystem>Direkt enjeksiyon</fuelSystem>
+								<turbine>Turbo kompresör, Intercooler</turbine>
+								<valvetrain>DOHC</valvetrain>
+								<fuel>Benzin</fuel>
+								<drive>Önden çekiş</drive>
+								<gearboxAT>9</gearboxAT>
+								<frontSuspension>Bağımsız tip McPherson</frontSuspension>
+								<rearSuspension>Bağımsız çok bağlantılı süspansiyon</rearSuspension>
+								<frontBrakes>Hava soğutmalı diskler</frontBrakes>
+								<rearBrakes>Disk</rearBrakes>
+								<abs>1</abs>
+								<standardFCc>WLTC</standardFCc>
+								<fuelConsumptionCombined>6.94</fuelConsumptionCombined>
+								<fuelConsumptionCombinedMin>6.94</fuelConsumptionCombinedMin>
+								<emissionStandard>China VI</emissionStandard>
+								<curbWeight>1650</curbWeight>
+								<curbWeightMin>1650</curbWeightMin>
+								<maxWeight>2085</maxWeight>
+								<maxWeightMin>2085</maxWeightMin>
+								<tireSize>
+									<all>245/40 R19</all>
+									<tire>
+										<size>245/40 R19</size>
+										<W>245</W>
+										<H>40</H>
+										<D>19</D>
+									</tire>
+								</tireSize>
+								<rimsSize>
+									<all>19</all>
+									<rim>19</rim>
+								</rimsSize>
+							</modification>
+							<modification>
+								<id>51377</id>
+								<update>2024-03-20 14:27:18</update>
+								<brand>MG</brand>
+								<model>MG7</model>
+								<generation>MG7 II</generation>
+								<doors>5</doors>
+								<doorsMin>5</doorsMin>
+								<power>188/5500-6000</power>
+								<powerHp>188</powerHp>
+								<powerRpm>5500-6000</powerRpm>
+								<powerRpmLow>5500</powerRpmLow>
+								<powerRpmHigh>6000</powerRpmHigh>
+								<maxspeed>210</maxspeed>
+								<tankVolume>65</tankVolume>
+								<coupe>Fastback</coupe>
+								<places>5</places>
+								<placesMin>5</placesMin>
+								<length>4884</length>
+								<width>1889</width>
+								<height>1447</height>
+								<heightMin>1447</heightMin>
+								<approachAngle>13</approachAngle>
+								<approachAngleMin>13</approachAngleMin>
+								<departureAngle>17</departureAngle>
+								<departureAngleMin>17</departureAngleMin>
+								<luggageMin>375</luggageMin>
+								<luggageMinMin>375</luggageMinMin>
+								<engineCode>BlueCore/15FDE</engineCode>
+								<engineposition>Ön, enine</engineposition>
+								<engineDisplacement>1496</engineDisplacement>
+								<torque>300/1500-4000</torque>
+								<torqueNm>300</torqueNm>
+								<torqueRpm>1500-4000</torqueRpm>
+								<torqueRpmLow>1500</torqueRpmLow>
+								<torqueRpmHigh>4000</torqueRpmHigh>
+								<fuelSystem>Direkt enjeksiyon</fuelSystem>
+								<turbine>Turbo kompresör, Intercooler</turbine>
+								<valvetrain>DOHC</valvetrain>
+								<fuel>Benzin</fuel>
+								<drive>Önden çekiş</drive>
+								<gearboxAT>7</gearboxAT>
+								<gearboxATType>DCT</gearboxATType>
+								<frontSuspension>Bağımsız tip McPherson</frontSuspension>
+								<rearSuspension>Bağımsız çok bağlantılı süspansiyon</rearSuspension>
+								<frontBrakes>Hava soğutmalı diskler</frontBrakes>
+								<rearBrakes>Disk</rearBrakes>
+								<abs>1</abs>
+								<standardFCc>WLTC</standardFCc>
+								<fuelConsumptionCombined>6.25</fuelConsumptionCombined>
+								<fuelConsumptionCombinedMin>6.25</fuelConsumptionCombinedMin>
+								<emissionStandard>China VI</emissionStandard>
+								<curbWeight>1570</curbWeight>
+								<curbWeightMin>1570</curbWeightMin>
+								<maxWeight>2005</maxWeight>
+								<maxWeightMin>2005</maxWeightMin>
+								<tireSize>
+									<all>225/50 R18; 245/40 R19</all>
+									<tire>
+										<size>225/50 R18</size>
+										<W>225</W>
+										<H>50</H>
+										<D>18</D>
+									</tire>
+									<tire>
+										<size>245/40 R19</size>
+										<W>245</W>
+										<H>40</H>
+										<D>19</D>
+									</tire>
+								</tireSize>
+								<rimsSize>
+									<all>18; 19</all>
+									<rim>18</rim>
+									<rim>19</rim>
+								</rimsSize>
+							</modification>
+						</modifications>
+					</generation>
+				</generations>
+			</model>
+			<model>
+				<update>2024-03-19 09:43:08</update>
+				<name>MG9</name>
+				<id>3404</id>
+				<generations>
+					<generation>
+						<prototype>0</prototype>
+						<update>2024-03-19 09:45:23</update>
+						<name>MG9 EV</name>
+						<modelYear>2024</modelYear>
+						<id>9928</id>
+						<images>
+							<image>
+								<id>140784</id>
+								<update>2024-03-19 09:58:05</update>
+								<small>https://api.auto-data.net/images/f127/MG-MG9-EV_thumb_1.jpg</small>
+								<big>https://api.auto-data.net/images/f127/MG-MG9-EV_2.jpg</big>
+								<attribution>&amp;copy; www.Auto-Data.net</attribution>
+							</image>
+							<image>
+								<id>140785</id>
+								<update>2024-03-19 09:58:05</update>
+								<small>https://api.auto-data.net/images/f99/MG-MG9-EV_thumb.jpg</small>
+								<big>https://api.auto-data.net/images/f99/MG-MG9-EV.jpg</big>
+								<attribution>&amp;copy; www.Auto-Data.net</attribution>
+							</image>
+						</images>
+						<modifications>
+						</modifications>
+					</generation>
+				</generations>
+			</model>
+		</models>
+	</brand>
+</brands>
