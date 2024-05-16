@@ -5,6 +5,9 @@
     },
     "brand": [
       {
+        "image": {
+          "_text": "https://logowik.com/content/uploads/images/487_infiniti_logo.jpg"
+        },
         "update": {
           "_text": "2022-04-14 16:44:04"
         },
@@ -1611,6 +1614,9 @@
         }
       },
       {
+        "image": {
+          "_text": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxQTmmfvDK9Pwl1uFH7e5yoTvD-sdhnFhjcj3SwdsbHQ&s"
+        },
         "update": {
           "_text": "2021-02-02 16:34:43"
         },
