@@ -61,7 +61,7 @@ function SignIn() {
   }, [accountDetails]);
 
   return (
-    <Flex mt="100px" ml="120px">
+    <Flex mt="25px" ml="120px">
       <Box>
         <img src={logo} alt="Giriş img" width="500px" height="60px" />
       </Box>

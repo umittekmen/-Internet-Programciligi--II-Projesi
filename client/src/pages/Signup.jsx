@@ -68,7 +68,7 @@ const Signup = () => {
 
   return (
     <>
-      <Box>
+      <Box mt={"0px"}>
         <Flex mt={100} ml={120} justify="center" align="center">
           <Box marginRight={"200px"}>
             <img src={logo} alt="kayıt Logo" width={500} height={60} />
