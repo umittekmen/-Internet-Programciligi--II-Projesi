@@ -31,6 +31,8 @@ function HomePage() {
         templateRows="repeat(5, 1fr)" // 5 satır oluştur
         templateColumns="repeat(5, 1fr)" // 5 sütun oluştur
         gap="1rem"
+        margin={"auto"}
+        w={"1300px"}
       >
         {jsonData?.map((car, index) => (
           <GridItem key={index}>

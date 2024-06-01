@@ -9,10 +9,19 @@ import Admin from "./pages/Admin.jsx";
 import Cookies from "js-cookie";
 import { useEffect, useContext } from "react";
 import { MainContext } from "./utils/context/mainContext";
-
+import Breadcrumb from "./pages/components/breadcrumbs.jsx";
 function App() {
   const { isLoggedIn, setIsLoggedIn } = useContext(MainContext);
   const location = useLocation();
+  const showBreadcrumb = [
+    "/",
+    "/login",
+    "/signup",
+    "/brand/:brandName/:modeldetail",
+    "/brand/:brandName",
+    "/about-us",
+    "/about-us",
+  ].includes(location.pathname);
 
   useEffect(() => {
     setIsLoggedIn(Cookies.get("isLoggedIn"));
@@ -20,6 +29,7 @@ function App() {
 
   return (
     <>
+      {showBreadcrumb && <Breadcrumb />}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route

@@ -105,9 +105,8 @@
                         "doors": {
                           "_text": "5"
                         },
-                        "doorsMin": {
-                          "_text": "5"
-                        },
+                       
+                        
                         "power": {
                           "_text": "265/6400"
                         },
@@ -129,9 +128,7 @@
                         "places": {
                           "_text": "7"
                         },
-                        "placesMin": {
-                          "_text": "7"
-                        },
+                        
                         "length": {
                           "_text": "4989"
                         },
@@ -273,9 +270,7 @@
                         "maxWeight": {
                           "_text": "2693"
                         },
-                        "maxWeightMin": {
-                          "_text": "2693"
-                        },
+                        
                         "tireSize": {
                           "all": {
                             "_text": "235/65 R18; 235/55 R20"
@@ -344,9 +339,7 @@
                         "doors": {
                           "_text": "5"
                         },
-                        "doorsMin": {
-                          "_text": "5"
-                        },
+                       
                         "power": {
                           "_text": "265/6400"
                         },
@@ -368,9 +361,7 @@
                         "places": {
                           "_text": "7"
                         },
-                        "placesMin": {
-                          "_text": "7"
-                        },
+                        
                         "length": {
                           "_text": "4989"
                         },
@@ -512,9 +503,7 @@
                         "maxWeight": {
                           "_text": "2602"
                         },
-                        "maxWeightMin": {
-                          "_text": "2602"
-                        },
+                       
                         "tireSize": {
                           "all": {
                             "_text": "235/65 R18; 235/55 R20"
@@ -647,18 +636,14 @@
                           "brand": {
                             "_text": "Infiniti"
                           },
-                          "model": {
-                            "_text": "G"
-                          },
+                       
                           "generation": {
                             "_text": "G37 Sedan (V36, facelift 2009)"
                           },
                           "doors": {
                             "_text": "4"
                           },
-                          "doorsMin": {
-                            "_text": "4"
-                          },
+                          
                           "power": {
                             "_text": "328/7000"
                           },
@@ -680,9 +665,7 @@
                           "places": {
                             "_text": "5"
                           },
-                          "placesMin": {
-                            "_text": "5"
-                          },
+                         
                           "length": {
                             "_text": "4779"
                           },
@@ -812,9 +795,7 @@
                           "maxWeight": {
                             "_text": "2142"
                           },
-                          "maxWeightMin": {
-                            "_text": "2142"
-                          },
+                       
                           "tireSize": {
                             "all": {
                               "_text": "245/45 R18;225/50 R18"
@@ -874,18 +855,14 @@
                           "brand": {
                             "_text": "Infiniti"
                           },
-                          "model": {
-                            "_text": "G"
-                          },
+                          
                           "generation": {
                             "_text": "G37 Sedan (V36, facelift 2009)"
                           },
                           "doors": {
                             "_text": "4"
                           },
-                          "doorsMin": {
-                            "_text": "4"
-                          },
+                         
                           "power": {
                             "_text": "328/7000"
                           },
@@ -907,9 +884,7 @@
                           "places": {
                             "_text": "5"
                           },
-                          "placesMin": {
-                            "_text": "5"
-                          },
+                       
                           "length": {
                             "_text": "4779"
                           },
@@ -1042,9 +1017,7 @@
                           "maxWeight": {
                             "_text": "2198"
                           },
-                          "maxWeightMin": {
-                            "_text": "2198"
-                          },
+                        
                           "tireSize": {
                             "all": {
                               "_text": "225/55 R17; 225/50 R18"
@@ -1163,18 +1136,14 @@
                           "brand": {
                             "_text": "Infiniti"
                           },
-                          "model": {
-                            "_text": "G"
-                          },
+                         
                           "generation": {
                             "_text": "G37 Sedan (V36)"
                           },
                           "doors": {
                             "_text": "4"
                           },
-                          "doorsMin": {
-                            "_text": "4"
-                          },
+                         
                           "power": {
                             "_text": "328/7000"
                           },
@@ -1196,9 +1165,7 @@
                           "places": {
                             "_text": "5"
                           },
-                          "placesMin": {
-                            "_text": "5"
-                          },
+                        
                           "length": {
                             "_text": "4755"
                           },
@@ -1325,9 +1292,7 @@
                           "maxWeight": {
                             "_text": "2142"
                           },
-                          "maxWeightMin": {
-                            "_text": "2142"
-                          },
+                          
                           "tireSize": {
                             "all": {
                               "_text": "245/45 R18;225/50 R18"
@@ -1387,18 +1352,14 @@
                           "brand": {
                             "_text": "Infiniti"
                           },
-                          "model": {
-                            "_text": "G"
-                          },
+                        
                           "generation": {
                             "_text": "G37 Sedan (V36)"
                           },
                           "doors": {
                             "_text": "4"
                           },
-                          "doorsMin": {
-                            "_text": "4"
-                          },
+                          
                           "power": {
                             "_text": "328/7000"
                           },
@@ -1420,9 +1381,7 @@
                           "places": {
                             "_text": "5"
                           },
-                          "placesMin": {
-                            "_text": "5"
-                          },
+                      
                           "length": {
                             "_text": "4755"
                           },
@@ -1552,9 +1511,7 @@
                           "maxWeight": {
                             "_text": "2198"
                           },
-                          "maxWeightMin": {
-                            "_text": "2198"
-                          },
+                          
                           "tireSize": {
                             "all": {
                               "_text": "225/55 R17; 225/50 R18"
@@ -1747,9 +1704,7 @@
                         "places": {
                           "_text": "5"
                         },
-                        "placesMin": {
-                          "_text": "5"
-                        },
+                  
                         "length": {
                           "_text": "4884"
                         },
@@ -1858,9 +1813,7 @@
                         "maxWeight": {
                           "_text": "2085"
                         },
-                        "maxWeightMin": {
-                          "_text": "2085"
-                        },
+                     
                         "tireSize": {
                           "all": {
                             "_text": "245/40 R19"
@@ -1938,9 +1891,7 @@
                         "places": {
                           "_text": "5"
                         },
-                        "placesMin": {
-                          "_text": "5"
-                        },
+                       
                         "length": {
                           "_text": "4884"
                         },
@@ -2052,9 +2003,7 @@
                         "maxWeight": {
                           "_text": "2005"
                         },
-                        "maxWeightMin": {
-                          "_text": "2005"
-                        },
+                        
                         "tireSize": {
                           "all": {
                             "_text": "225/50 R18; 245/40 R19"

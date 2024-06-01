@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import Header from "./Header";
 import Atropos from "atropos/react";
+import { px } from "framer-motion";
 
 const ModelDetails = () => {
   const { modeldetail } = useParams();
@@ -22,21 +23,21 @@ const ModelDetails = () => {
     brand: "Marka",
     model: "Model",
     doors: "Kapı Sayısı",
-    power: "Motor Gücü",
+    power: "Motor Gücü(hp)",
     powerHp: "Motor Gücü (Hp)",
     tankVolume: "Yakıt Deposu",
     modelYear: "Model Yılı",
-    length: "Uzunluk",
-    width: "Genişlik",
-    height: "Yükseklik",
-    approachAngle: "Geliş Açısı",
-    departureAngle: "Ayrılma Açısı",
-    luggageMin: "Bagaj Hacmi",
+    length: "Uzunluk(mm)",
+    width: "Genişlik(mm)",
+    height: "Yükseklik(mm)",
+    approachAngle: "Geliş Açısı(m)",
+    departureAngle: "Ayrılma Açısı(m)",
+    luggageMin: "Bagaj Hacmi(Litre)",
     engineCode: "Motor Kodu",
     engineposition: "Motor Konumu",
     engineDisplacement: "Motor Hacmi",
-    maxEngineSpeed: "Maksimum Motor Hızı",
-    torque: "Tork",
+    maxEngineSpeed: "Maksimum Motor Hızı(rpm)",
+    torque: "Tork(Nm)",
     torqueNm: "Tork (Nm)",
     torqueRpm: "Tork (Devir)",
     fuelSystem: "Yakıt Sistemi",
@@ -52,14 +53,38 @@ const ModelDetails = () => {
     rearBrakes: "Arka Frenler",
     abs: "ABS",
     standardFCc: "Yakıt Tüketim Standardı",
-    fuelConsumptionCombined: "Ortalama Yakıt Tüketimi",
+    fuelConsumptionCombined: "Ortalama Yakıt Tüketimi(Litre)",
     emissionStandard: "Emisyon Standardı",
-    curbWeight: "Boş Ağırlık",
-    maxWeight: "Maksimum Ağırlık",
+    curbWeight: "Boş Ağırlık(kg)",
+    maxWeight: "Maksimum Ağırlık(kg)",
     tireSize: "Lastik Boyutu",
     rimsSize: "Jant Boyutu",
     maxspeed: "Maksimum Hız",
     acceleration: "0-100 km/h Hızlanma",
+    powerRpm: "Maksimum devir",
+    powerRpmLow: "Minimum devir",
+    powerRpmHigh: "Maksimum Devir Gücü",
+    doorsmin: "minimum kapı sayısı",
+    coupe: "Kasa Tipi",
+    places: "Koltuk sayısı",
+    rideHeight: "Sürüş Yüksekliği",
+    rideHeightMin: "Minimum Sürüş Yükseklği",
+    heightMin: "Minimum Yükseklik",
+    approachAngleMin: "Yaklaşma Açısı",
+    departureAngleMin: "Kalkış Açısı",
+    luggageMinMin: "Minumum Bagaj Hacmi",
+    torqueRpmLow: "Düşük Tork Devri",
+    frontBrakesSize: "Ön Fren Boyutu (mm)",
+    frontBrakesThickness: "Ön Fren Kalınlığı(mm)",
+    rearBrakesSize: "Arka Fren Boyutu (mm)",
+    rearBrakesThickness: "Arka Fren Kalınlığı(mm)",
+    fuelConsumptionUrban: "Şehir içi Yakıt Tüketimi(Litre)",
+    fuelConsumptionUrbanMin: "Şehir içi Minimum Yakıt Tüketimi(Litre)",
+    fuelConsumptionExtraurban: "Şehir Dışı Yakıt Tüketimi(Litre)",
+    fuelConsumptionExtraurbanMin: "Şehir Dışı Minimum Yakıt Tüketimi(Litre)",
+    fuelConsumptionCombined: "Ortalama Yakıt Tüketimi(Litre)",
+    fuelConsumptionCombinedMin: "Ortalama  Minimum Yakıt Tüketimi(Litre)",
+    curbWeightMin: "Boş Ağırlık(kg)",
   };
 
   useEffect(() => {
@@ -132,7 +157,13 @@ const ModelDetails = () => {
     <>
       <Header />
       {modelDetails && (
-        <Grid p="1rem" templateColumns="1fr" gap="1rem">
+        <Grid
+          p="1rem"
+          templateColumns="1fr"
+          gap="1rem"
+          margin={"auto"}
+          w={"1300px"}
+        >
           <GridItem>
             <Atropos
               style={{ height: "100%" }}
@@ -140,24 +171,36 @@ const ModelDetails = () => {
               shadowScale={1.05}
             >
               <Flex flexDirection="column">
-                <Heading>{modelDetails.name._text}</Heading>
-                <Card h="100%" borderRadius="lg" border="2px solid gray">
+                <Heading mb={"15px"}>{modelDetails.name._text}</Heading>
+                <Card
+                  h="100%"
+                  borderRadius="lg"
+                  border={"3px solid"}
+                  borderStyle={"dashed"}
+                  borderColor={"#696969"}
+                >
                   <CardBody>
                     <Flex flexWrap="wrap" gap="1rem">
                       {modelDetails.generations?.generation?.images?.image.map(
                         (image, index) => (
-                          <div key={index} style={{ width: "400px" }}>
+                          <Box key={index} style={{ width: "400px" }}>
                             <Image
                               src={image.big?._text}
                               alt={`Image ${index + 1}`}
                             />
-                          </div>
+                          </Box>
                         )
                       )}
                     </Flex>
                   </CardBody>
                 </Card>
-                <Card border="2px solid gray" borderRadius="lg" mt="4">
+                <Card
+                  border="3px solid "
+                  borderRadius="lg"
+                  mt="50px"
+                  borderStyle={"dashed"}
+                  borderColor={"#696969"}
+                >
                   <CardBody>
                     <Flex flexWrap="wrap" gap="1rem">
                       {modelDetails.generations?.generation?.modifications?.modification?.map(
@@ -171,6 +214,7 @@ const ModelDetails = () => {
                               borderRadius="lg"
                               p="1rem"
                               mb="1rem"
+                              w={"600px"}
                             >
                               <Heading size="md">Motor Bilgileri</Heading>
                               {motorInfo}

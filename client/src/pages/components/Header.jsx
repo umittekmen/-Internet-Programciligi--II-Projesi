@@ -47,7 +47,6 @@ function Header() {
 
   useEffect(() => {
     // Kullanıcı adı kontrolü burada yapılabilir
-    // Örneğin, kullanıcı bir cookie'de oturum açmışsa setUser ile kullanıcı adını ayarlayabilirsiniz.
   }, []);
 
   return (
