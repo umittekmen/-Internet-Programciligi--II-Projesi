@@ -1,25 +1,45 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 import BrandPage from "./pages/BrandPage.jsx";
-import Singin from "./pages/Signin.jsx";
+import Signin from "./pages/Signin.jsx";
 import Signup from "./pages/Signup.jsx";
-import ModelDetails from "./pages/ModelDetails.jsx";
+import ModelDetails from "./pages/components/ModelDetails.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
+import Admin from "./pages/Admin.jsx";
+import Cookies from "js-cookie";
+import { useEffect, useContext } from "react";
+import { MainContext } from "./utils/context/mainContext";
 
 function App() {
+  const { isLoggedIn, setIsLoggedIn } = useContext(MainContext);
+  const location = useLocation();
+
+  useEffect(() => {
+    setIsLoggedIn(Cookies.get("isLoggedIn"));
+  }, [location.pathname]);
+
   return (
     <>
       <Routes>
         <Route path="/" element={<HomePage />} />
-
-        <Route path="/Girisyap" element={<Singin />} />
-        <Route path="/kayıtol" element={<Signup />} />
+        <Route
+          path="/login"
+          element={isLoggedIn ? <Navigate to="/" replace /> : <Signin />}
+        />
+        <Route
+          path="/signup"
+          element={isLoggedIn ? <Navigate to="/" replace /> : <Signup />}
+        />
         <Route path="/brand/:brandName" element={<BrandPage />} />
-        <Route path="/brand/:brandName/:modeldetail" element={<ModelDetails />} />
-        <Route path="/Hakkımızda" element={<AboutUs />} />
+        <Route
+          path="/brand/:brandName/:modeldetail"
+          element={<ModelDetails />}
+        />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </>
-  )
+  );
 }
 
 export default App;

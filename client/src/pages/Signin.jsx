@@ -1,63 +1,108 @@
-import React from 'react';
+import { useState, useContext, useEffect } from "react";
 import {
-    Button,
-    Flex,
-    Box,
-    Spacer,
+  Button,
+  Flex,
+  Box,
+  Heading,
+  FormControl,
+  FormLabel,
+  Input,
+  useToast,
+} from "@chakra-ui/react";
+import logo from "../../public/cars/Car-accesories.gif";
+import { signin } from "../utils/response/Auth";
+import { MainContext } from "../utils/context/mainContext";
+import { useNavigate } from "react-router-dom";
 
-    Center,
-    Heading,
-    FormControl,
-    FormLabel,
-    Input,
-} from '@chakra-ui/react';
-import { Link as ChakraLink } from "@chakra-ui/react"
-import Header from './components/Header';
-import logo from "./components/Car-accesories.gif"
+function SignIn() {
+  const toast = useToast();
+  const { setIsLoggedIn, setAccountDetails, accountDetails } =
+    useContext(MainContext);
+  const navigate = useNavigate();
+  const [userData, setUserData] = useState({
+    email: "",
+    password: "",
+  });
 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setUserData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
 
-function Singin() {
-    return (
-        <>
+  const handleSubmit = async () => {
+    try {
+      const response = await signin(userData);
+      setUserData({ email: "", password: "" });
+      setIsLoggedIn(true);
+      toast({
+        title: "Giriş",
+        description: "Başarıyla giriş yapıldı.",
+        status: "success",
+        duration: 5000,
+      });
+      setAccountDetails(response.message);
+    } catch (error) {
+      toast({
+        title: "Giriş",
+        description: error.message,
+        status: "error",
+        duration: 5000,
+      });
+    }
+  };
 
-            <Flex mt={"100px"} ml={"120px"} >
-                <Box>
-                    <img src={logo} alt="Giris img" width={"500px"} height={"60px"} />
-                </Box>
-                <Box maxW="md" mx="auto" mt={8} p={8} borderWidth={1} borderRadius="lg" w={"400px"} >
-                    <Heading as="h2" size="lg" textAlign="center" mb={6}>
-                        Giriş Yap
-                    </Heading>
+  useEffect(() => {
+    if (accountDetails) {
+      navigate(accountDetails.role === "admin" ? "/admin" : "/");
+    }
+  }, [accountDetails]);
 
-                    <FormControl id="email" isRequired>
-                        <FormLabel>Email</FormLabel>
-                        <Input type="email" placeholder="Email adresiniz" />
-                    </FormControl>
+  return (
+    <Flex mt="100px" ml="120px">
+      <Box>
+        <img src={logo} alt="Giriş img" width="500px" height="60px" />
+      </Box>
+      <Box
+        maxW="md"
+        mx="auto"
+        mt={8}
+        p={8}
+        borderWidth={1}
+        borderRadius="lg"
+        w="400px"
+      >
+        <Heading as="h2" size="lg" textAlign="center" mb={6}>
+          Giriş Yap
+        </Heading>
+        <FormControl isRequired>
+          <FormLabel>Email</FormLabel>
+          <Input
+            type="email"
+            placeholder="Email adresiniz"
+            value={userData.email}
+            name={"email"}
+            onChange={handleChange}
+          />
+        </FormControl>
+        <FormControl mt={4} isRequired>
+          <FormLabel>Şifre</FormLabel>
+          <Input
+            name="password"
+            type="password"
+            placeholder="Şifreniz"
+            value={userData.password}
+            onChange={handleChange}
+          />
+        </FormControl>
+        <Button colorScheme="teal" width="full" mt={8} onClick={handleSubmit}>
+          Giriş Yap
+        </Button>
+      </Box>
+    </Flex>
+  );
+}
 
-                    <FormControl id="password" mt={4} isRequired>
-                        <FormLabel>Şifre</FormLabel>
-                        <Input type="password" placeholder="Şifreniz" />
-                    </FormControl>
-
-                    <Button colorScheme="teal" width="full" mt={8}>
-                        Giriş Yap
-                    </Button>
-                    {/* <ChakraLink href="" mt={4} textAlign="center" color="teal.500">
-                        {" "}
-
-                        Şifremi Unuttum
-                    </ChakraLink> */}
-                </Box>
-
-            </Flex>
-
-
-
-
-
-
-
-
-        </>
-    )
-} export default Singin
+export default SignIn;
