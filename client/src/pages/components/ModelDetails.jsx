@@ -57,7 +57,7 @@ const ModelDetails = () => {
     emissionStandard: "Emisyon Standardı",
     curbWeight: "Boş Ağırlık(kg)",
     maxWeight: "Maksimum Ağırlık(kg)",
-    tireSize: "Lastik Boyutu",
+    tireSize: "Lastik Boyutu(mm)",
     rimsSize: "Jant Boyutu",
     maxspeed: "Maksimum Hız",
     acceleration: "0-100 km/h Hızlanma",
