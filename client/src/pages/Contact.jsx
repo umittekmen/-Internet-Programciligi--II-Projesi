@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Box, Center } from "@chakra-ui/react";
 import Header from "./components/Header";
 
-const AboutUs = () => {
+const Contact = () => {
   useEffect(() => {}, []);
 
   return (
@@ -18,10 +18,11 @@ const AboutUs = () => {
         Kayseri Üniversitesi
         <br /> Bilgisayar Programcılığı <br /> 2.Sınıf Projesi
         <br />
-        Muhammet Ümit TEKMEN
+        Muhammet Ümit TEKMEN 223010710036 <br />
+        223010710036@kayseri.edu.tr
       </Center>
     </>
   );
 };
 
-export default AboutUs;
+export default Contact;

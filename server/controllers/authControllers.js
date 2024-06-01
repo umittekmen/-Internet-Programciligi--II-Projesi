@@ -5,23 +5,20 @@ const register = async (req, res) => {
   try {
     const { name, email, password } = req.body;
     if (!name || !email || !password) {
-      throw { message: "Eksik Bilgi Girdiniz", code: 400 };
+      res.status(400).json({ message: "Eksik Bilgi Girdiniz" }); // 400 Bad Request
+      return;
     }
     const newUser = await User.create({
       name,
       email,
       password,
     });
-    if (!newUser) {
-      throw { message: "Kullanıcı Bulunamadı", code: 404 };
-    }
-    // Kullanıcı adını yanıt nesnesine ekle
     res.status(201).json({
-      message: `Kullanıcı Oluşturuldu: ${newUser}`,
-      username: newUser.name, // Kullanıcı adını yanıt nesnesine ekle
-    });
+      message: `Kullanıcı Oluşturuldu: ${newUser.name}`,
+      username: newUser.name,
+    }); // 201 Created
   } catch (error) {
-    res.status(error.code || 500).json({ message: error.message });
+    res.status(500).json({ message: "Bir hata oluştu" }); // 500 Internal Server Error
   }
 };
 
@@ -30,7 +27,8 @@ const login = async (req, res) => {
     const { email, password } = req.body;
 
     if (!email || !password) {
-      throw { message: "Eksik Bilgi Girdiniz", code: 400 };
+      res.status(400).json({ message: "Eksik Bilgi Girdiniz" }); // 400 Bad Request
+      return;
     }
 
     const findUser = await User.findOne({
@@ -38,12 +36,14 @@ const login = async (req, res) => {
     });
 
     if (!findUser) {
-      throw { message: "Email bulunamadı", code: 404 };
+      res.status(404).json({ message: "Email bulunamadı" }); // 404 Not Found
+      return;
     }
 
     const match = await bcrypt.compare(password, findUser.password);
     if (!match) {
-      throw { message: "Hatalı Şifre", code: 403 };
+      res.status(403).json({ message: "Hatalı Şifre" }); // 403 Forbidden
+      return;
     }
 
     req.session.userID = findUser._id;
@@ -52,18 +52,18 @@ const login = async (req, res) => {
 
     res.status(200).json({
       message: findUser,
-    });
+    }); // 200 OK
   } catch (error) {
-    res.status(error.code || 500).json({ message: error.message });
+    res.status(500).json({ message: "Bir hata oluştu" }); // 500 Internal Server Error
   }
 };
 
 const logout = async (req, res) => {
   try {
-    // Oturumu sonlandır
     req.session.destroy();
+    res.status(204).json(); // 204 No Content
   } catch (error) {
-    res.status(error.code || 500).json({ message: error.message });
+    res.status(500).json({ message: "Bir hata oluştu" }); // 500 Internal Server Error
   }
 };
 

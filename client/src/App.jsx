@@ -10,6 +10,7 @@ import Cookies from "js-cookie";
 import { useEffect, useContext } from "react";
 import { MainContext } from "./utils/context/mainContext";
 import Breadcrumb from "./pages/components/breadcrumbs.jsx";
+import Contact from "./pages/Contact.jsx";
 function App() {
   const { isLoggedIn, setIsLoggedIn } = useContext(MainContext);
   const location = useLocation();
@@ -19,8 +20,6 @@ function App() {
     "/signup",
     "/brand/:brandName/:modeldetail",
     "/brand/:brandName",
-    "/about-us",
-    "/about-us",
   ].includes(location.pathname);
 
   useEffect(() => {
@@ -47,6 +46,7 @@ function App() {
         />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/admin" element={<Admin />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );
